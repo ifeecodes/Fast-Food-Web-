@@ -4,28 +4,28 @@
     box-sizing: border-box;
 }
 .navbar-brand{
-    font-size: 2rem;
-    color: #000;
+    font-size: 4rem;
+    color: #0c0101;
     font-family: 'Lobster', cursive;
-    font-weight: 600;
+    font-weight: 500;
 }
 .navbar-brand:hover{
     color: #000;
 }
-.nav-link{
-    /*font-size: 1.2rem;*/
+.nav-item .nav-link a{
+    font-size: 1rem;
     color: #000;
     margin-right: 10px;
     margin-left: 10px;
-    text-transform: uppercase;
     font-family: 'Rubik', sans-serif;
+    cursor: pointer;
 }
 
 .nav-link:hover{
     color: #000;
 }
 .search{
-    height: 40px;
+    height: 35px;
     width: 80%;
     border-radius: 60px;
     outline: none;
@@ -34,14 +34,14 @@
     border: 2px solid rgb(248, 26, 92);
 }
 .btn0{
-    height: 40px;
+    height: 35px;
     width: 40%;
     outline: none;
     border: none;
     background: rgb(248, 26, 92);
     color: white;
     border-radius: 60px;
-    font-weight: 700;
+    font-weight: 600;
 
 }
 .main{
@@ -52,9 +52,9 @@
     width: 100%;
 }
 .main h1{
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 700;
-    color: rgb(206, 189, 194);
+    color: white;
 }
 .btn1{
     height: 45px;
